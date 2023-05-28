@@ -14,22 +14,33 @@ body{
     align-items: center;
     justify-content: center;
 }
-.container{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .notification{
-    background-color: white;
-    padding: 10px;
+    background-color: rgb(255 255 255);
+    padding: 10px 20px;
     width: fit-content;
     width: 400px;
     border-radius: 5px;
+    margin-top: 10px;
 }
-.notification *{
+#btn{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 10px black;
+    font-size: 16px;
+    font-weight: 600;
+}
+#btn:active{
+    box-shadow: 0 0 0 0;
+}
+#container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.notification, .notification *{
     font-size: 14px;
 }
 .logo-info{
