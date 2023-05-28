@@ -15,8 +15,8 @@ function createNotification(){
             <h3>9m ago</h3>
         </div>
         <h1>friend request!</h1>
-        <h3><span>Ahmed</span> sent you a friend request!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        <h3><span>Ahmed</span> commented on <span>Samar Nagy's post!</h3>
+        <p>لحظة اخش الحمام و اشرب مياه</p>
         `
     container.appendChild(notification)
 
